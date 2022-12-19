@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Project 135-137</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="background_coding.jpeg">
+        <center>
+        <h3 class="btn btn-warning header"> Project 135-137: AI Object Finder
+            <br>
+            <span class="note">The name you put in the 'Input Box'(below) should match the name of the object you're holding up. Only then will the COCOSSD Model work.</span>
+        </h3>
+        <br><br>
+        <h3>Object Name: </h3>
+        <br>
+        <input class="input" id="object_name">
+        <br><br>
+        <button class="btn btn-success" id="start-btn" onclick="start()">Start</button>
+        <br><br>
+        <h2 class="btn btn-danger" id="status1"></h2>
+        <h2 class="btn btn-primary" id=" object_status"></h2>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
